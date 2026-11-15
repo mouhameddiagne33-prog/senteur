@@ -47,8 +47,8 @@ const PRODUITS = [
   },
   {
     "id": 6,
-    "image": "images/p6-1794754669948.jpg",
-    "nom": "black sens",
+    "image": "images/p6-1794755405381.jpg",
+    "nom": "private gold",
     "categorie": "Parfums",
     "prix": 6500,
     "ml": 60,
@@ -60,6 +60,33 @@ const PRODUITS = [
     "nom": "bois intense 2004",
     "categorie": "Parfums",
     "prix": 16000,
+    "ml": 100,
+    "dispo": true
+  },
+  {
+    "id": 8,
+    "image": "images/p8-1794755345118.jpg",
+    "nom": "oud pou klassik",
+    "categorie": "Parfums",
+    "prix": 27000,
+    "ml": 100,
+    "dispo": true
+  },
+  {
+    "id": 9,
+    "image": "images/p9-1794755484642.jpg",
+    "nom": "rifahat blanc",
+    "categorie": "Parfums",
+    "prix": 13000,
+    "ml": 100,
+    "dispo": true
+  },
+  {
+    "id": 10,
+    "image": "images/p10-1794755572358.jpg",
+    "nom": "rifahat adorn",
+    "categorie": "Parfums",
+    "prix": 13000,
     "ml": 100,
     "dispo": true
   }
