@@ -17,5 +17,32 @@ const PRODUITS = [
     "prix": 8000,
     "ml": 100,
     "dispo": true
+  },
+  {
+    "id": 3,
+    "image": "images/p3-1794752007296.jpg",
+    "nom": "liquid brun",
+    "categorie": "Parfums",
+    "prix": 20000,
+    "ml": 100,
+    "dispo": true
+  },
+  {
+    "id": 4,
+    "image": "images/p4-1794752129545.jpg",
+    "nom": "intense wayfarer",
+    "categorie": "Parfums",
+    "prix": 13000,
+    "ml": 100,
+    "dispo": true
+  },
+  {
+    "id": 5,
+    "image": "images/p5-1794752172360.jpg",
+    "nom": "bois intense 2004",
+    "categorie": "Parfums",
+    "prix": 16000,
+    "ml": 50,
+    "dispo": true
   }
 ];
