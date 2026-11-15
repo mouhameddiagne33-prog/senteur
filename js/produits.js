@@ -44,5 +44,14 @@ const PRODUITS = [
     "prix": 16000,
     "ml": 50,
     "dispo": true
+  },
+  {
+    "id": 6,
+    "image": "images/p6-1794752859454.jpg",
+    "nom": "private gold",
+    "categorie": "Parfums",
+    "prix": 6500,
+    "ml": 60,
+    "dispo": true
   }
 ];
