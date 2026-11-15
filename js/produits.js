@@ -8,5 +8,14 @@ const PRODUITS = [
     "ml": null,
     "dispo": true,
     "image": ""
+  },
+  {
+    "id": 2,
+    "image": "images/p2-1794751302752.jpg",
+    "nom": "matelot",
+    "categorie": "Parfums",
+    "prix": 8000,
+    "ml": 100,
+    "dispo": true
   }
 ];
