@@ -70,13 +70,13 @@ function pageAccueil() {
 
 function pageCatalogue() {
   const g = $("#grille"), f = $("#filtres");
-  const cats = ["Tous", ...new Set(PRODUITS.map(p => p.categorie))];
+  const cats = [...new Set(PRODUITS.map(p => p.categorie))];
   f.innerHTML = cats.map((c, i) => `<button class="${i ? "" : "actif"}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");
   const afficher = cat => {
-    const liste = PRODUITS.filter(p => cat === "Tous" || p.categorie === cat);
+    const liste = PRODUITS.filter(p => p.categorie === cat);
     g.innerHTML = liste.length ? liste.map(carteHTML).join("") : `<p class="vide">Aucun produit pour le moment.</p>`;
   };
-  afficher("Tous");
+  afficher(cats[0]);
   f.addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
     $$("button", f).forEach(x => x.classList.remove("actif"));
