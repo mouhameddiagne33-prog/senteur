@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Catalogue · Maison Diagne Senteur</title><link rel="stylesheet" href="css/style.css"><script>(function(){var t=localStorage.getItem('mds_theme');if(t)document.documentElement.dataset.theme=t;})();</script></head>
+<body data-page="catalogue">
+<header><div class="barre">
+  <a class="marque" href="index.html" data-lien><img class="logo-header" src="images/logo.jpeg" alt="Maison Diagne Senteur"><span>Maison Diagne Senteur</span></a>
+  <nav>
+    <a href="index.html" data-lien data-page="accueil">Accueil</a>
+    <a href="catalogue.html" data-lien data-page="catalogue">Catalogue</a>
+    <a href="panier.html" data-lien data-page="panier">Panier<span class="badge" hidden>0</span></a>
+    <a href="commande.html" data-lien data-page="commande">Commande</a>
+    <a href="contact.html" data-lien data-page="contact">Contact</a>
+  </nav>
+</div></header>
+<main>
+<div class="conteneur">
+  <h2 class="titre">Catalogue</h2>
+  <div class="filtres" id="filtres"></div>
+  <div class="grille" id="grille"></div>
+</div>
+</main>
+<footer><strong>Maison Diagne Senteur</strong><br><span data-bind="slogan"></span><br>
+<span data-bind="adresse"></span> · WhatsApp <a data-wa href="#">71 051 97 11</a></footer>
+<div class="rideau"></div>
+<div class="toast" id="toast"></div>
+<script src="js/boutique.js"></script>
+<script src="js/produits.js"></script>
+<script src="js/app.js"></script>
+</body></html>
