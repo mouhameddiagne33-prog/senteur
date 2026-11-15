@@ -1,6 +1,15 @@
 // Catalogue (généré par l'admin)
 const PRODUITS = [
   {
+    "id": 1,
+    "nom": "Vanilla Voyage",
+    "categorie": "Parfums",
+    "prix": 25000,
+    "ml": 50,
+    "dispo": true,
+    "image": "images/p1-1794751810624.jpg"
+  },
+  {
     "id": 2,
     "image": "images/p2-1794751302752.jpg",
     "nom": "matelot",
