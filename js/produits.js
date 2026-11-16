@@ -89,5 +89,23 @@ const PRODUITS = [
     "prix": 13000,
     "ml": 100,
     "dispo": true
+  },
+  {
+    "id": 11,
+    "image": "images/p11-1794855329505.jpg",
+    "nom": "khamra lattafa",
+    "categorie": "Parfums",
+    "prix": 13000,
+    "ml": 100,
+    "dispo": true
+  },
+  {
+    "id": 12,
+    "image": "images/p12-1794855409890.jpg",
+    "nom": "collection ou al malick",
+    "categorie": "Parfums",
+    "prix": 16000,
+    "ml": 50,
+    "dispo": true
   }
 ];
